@@ -1,6 +1,6 @@
 {
   "name": "@zlyfer/cap-plugin-install-permission",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Permission for installing apps on Android.",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
