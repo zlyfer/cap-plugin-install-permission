@@ -1,7 +1,7 @@
 {
-  "name": "install-permission",
+  "name": "@zlyfer/cap-plugin-install-permission",
   "version": "0.0.1",
-  "description": "Install Permission",
+  "description": "Capacitor Plugin Install Permission",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
