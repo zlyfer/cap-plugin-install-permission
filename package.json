@@ -1,7 +1,7 @@
 {
   "name": "@zlyfer/cap-plugin-install-permission",
   "version": "0.0.1",
-  "description": "Capacitor Plugin Install Permission",
+  "description": "Permission for installing apps on Android.",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -11,7 +11,7 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "InstallPermission.podspec"
+    "ZlyferCapPluginInstallPermission.podspec"
   ],
   "author": "Frederik Shull",
   "license": "MIT",
