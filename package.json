@@ -13,7 +13,7 @@
     "ios/Plugin/",
     "InstallPermission.podspec"
   ],
-  "author": "",
+  "author": "Frederik Shull",
   "license": "MIT",
   "repository": {
     "type": "git",

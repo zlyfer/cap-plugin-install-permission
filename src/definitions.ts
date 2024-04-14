@@ -1,3 +1,4 @@
 export interface InstallPermissionPlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
+  checkPermission(): Promise<{ granted: boolean }>;
+  requestPermission(): Promise<{ action: String }>;
 }

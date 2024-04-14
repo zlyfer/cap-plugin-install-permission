@@ -4,8 +4,11 @@ import android.util.Log;
 
 public class InstallPermission {
 
-    public String echo(String value) {
-        Log.i("Echo", value);
-        return value;
+    public void checkPermission() {
+        Log.i("InstallPermission", "checkPermission");
+    }
+
+    public void requestPermission() {
+        Log.i("InstallPermission", "requestPermission");
     }
 }

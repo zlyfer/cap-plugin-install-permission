@@ -9,10 +9,11 @@ import Capacitor
 public class InstallPermissionPlugin: CAPPlugin {
     private let implementation = InstallPermission()
 
-    @objc func echo(_ call: CAPPluginCall) {
-        let value = call.getString("value") ?? ""
-        call.resolve([
-            "value": implementation.echo(value)
-        ])
+    @objc func checkPermission(_ call: CAPPluginCall) {
+        call.reject("Not implemented on iOS.")
+    }
+
+    @objc func requestPermission(_ call: CAPPluginCall) {
+        call.reject("Not implemented on iOS.")
     }
 }
