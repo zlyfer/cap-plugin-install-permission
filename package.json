@@ -42,7 +42,7 @@
     "clean": "rimraf ./dist",
     "watch": "tsc --watch",
     "prepublishOnly": "npm run build",
-    "postinstall": "npm run clean && tsc && rollup -c rollup.config.js"
+    "postinstall": "tsc && rollup -c rollup.config.js"
   },
   "devDependencies": {
     "@capacitor/android": "^5.0.0",
